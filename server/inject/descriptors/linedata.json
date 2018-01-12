@@ -25,6 +25,11 @@
       "type": "string",
       "selector": "#performanceView-targetValue",
       "control": "property.innerText"
+    },
+    "hourActualValue": {
+      "type": "string",
+      "selector": "#performanceView-actualValue",
+      "control": "property.innerText"
     }
   },
   "connect": [
