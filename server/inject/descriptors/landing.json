@@ -9,7 +9,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > table > tbody > tr >td[contains(., 'SMT')]",
+      "selectorAll": "div > table > tbody > tr >td[contains(a, 'SMT')]",
       "items": {
         "type": "object",
         "properties": {
