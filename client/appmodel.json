@@ -57,6 +57,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "goToLanding": {
+        "type": "action"
       }
     }
   }
