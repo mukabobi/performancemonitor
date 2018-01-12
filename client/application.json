@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "73d1c6f9",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "viecsehn"
+  "creatorId": "viecsehn",
+  "id": "performancemonitor",
+  "previewImageURL": "/previews/73d1c6f9-performancemonitor/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/mukabobi/performancemonitor",
+  "creatorName": "Christian Sehn",
+  "sdks": []
 }
