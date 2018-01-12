@@ -10,6 +10,11 @@
       "type": "string",
       "selector": ".highlightedShiftText",
       "control": "property.innerHTML"
+    },
+    "goToLanding": {
+      "type": "action",
+      "control": "action.link",
+      "selector": "a.navbar-brand"
     }
   },
   "connect": [
