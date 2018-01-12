@@ -60,6 +60,36 @@
       },
       "goToLanding": {
         "type": "action"
+      },
+      "product1": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
+      },
+      "targetPerHour": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
+      },
+      "hourActualValue": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
+      },
+      "planPerShift": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
+      },
+      "actualPerShift": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }

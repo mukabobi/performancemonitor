@@ -12,15 +12,42 @@
         <ion-nav-buttons side="right"></ion-nav-buttons>
     </ion-nav-bar>
     <ion-content class=" stable-bg" data-comp-id="ionic-content.1">
+        <div class="text-center energized" data-comp-id="text.1" ng-bind="data.linename"
+            style="font-size: 18px; font-weight: 800;">Title goes here</div>
         <div class=" light-bg btmshadow" data-comp-id="div.1"
             style="margin: 0px; border-bottom: 1px solid rgb(238, 238, 238);">
-            <div class="row" data-comp-id="row.1" style="padding: 15px 15px 0px;">
-                <div class="col" data-comp-id="column.1">
-                    <div class=" dark" data-comp-id="text.1" ng-bind="data.linename"
-                        style="font-size: 18px;">Title goes here</div>
+            <div class="row" data-comp-id="row.2" style="margin: 5% 0%;">
+                <div class="col" data-comp-id="column.2">
+                    <div class=" text-center" data-comp-id="text.2">Current product</div>
+                    <div class="text-center dark" data-comp-id="text.3" ng-bind="data.product1"
+                        style="font-weight: bold; font-size: 25px; line-height: 35px;">Some text</div>
                 </div>
             </div>
-            <div class="row" data-comp-id="row.3" style="margin: 5% 0%;"></div>
+            <div class="row" data-comp-id="row.3">
+                <div class="col" data-comp-id="column.3">
+                    <div class=" text-center" data-comp-id="text.4">Target per hour</div>
+                    <div class="text-center dark" data-comp-id="text.5" ng-bind="data.targetPerHour"
+                        style="font-size: 64px; font-weight: 300; line-height: 70px;">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.1">
+                    <div class=" text-center" data-comp-id="text.6">Fact per hour</div>
+                    <div class="text-center dark" data-comp-id="text.7"
+                        ng-bind="data.hourActualValue"
+                        style="font-size: 64px; font-weight: 300; line-height: 70px;">Some text</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.4">
+                    <div class=" text-center" data-comp-id="text.8">Shift target</div>
+                    <div class="dark text-center" data-comp-id="text.9" ng-bind="data.planPerShift"
+                        style="line-height: 70px; font-size: 64px;">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.5">
+                    <div class=" text-center" data-comp-id="text.10">Fact per shift</div>
+                    <div class=" text-center" data-comp-id="text.11" ng-bind="data.actualPerShift"
+                        style="font-size: 64px; line-height: 70px;">Some text</div>
+                </div>
+            </div>
         </div>
         <div class=" light-bg" data-comp-id="div.2"
             style="margin: 0px; border-top: 1px solid rgb(238, 238, 238); border-bottom: 1px solid rgb(238, 238, 238);"></div>
