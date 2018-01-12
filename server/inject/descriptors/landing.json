@@ -14,7 +14,7 @@
         "properties": {
           "linename": {
             "type": "string",
-            "selector": "div > a",
+            "selector": "td > div > a",
             "control": "property.innerText",
             "selectContains": "SMT"
           }
