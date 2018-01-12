@@ -9,7 +9,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > table > tbody > tr:nth-child(odd)",
+      "selectorAll": "div > table > tbody > tr:has(td:contains(\"Leather\"))",
       "items": {
         "type": "object",
         "properties": {
