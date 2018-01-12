@@ -21,7 +21,7 @@
           "goToDetails": {
             "type": "string",
             "selector": "td > div > a",
-            "control": "action.link"
+            "control": "property.innerText"
           }
         }
       }
