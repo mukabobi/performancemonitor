@@ -15,7 +15,7 @@
         "properties": {
           "linename": {
             "type": "string",
-            "selector": "td > div > a",
+            "selector": "div > a",
             "control": "property.innerText"
           },
           "goToDetails": {
