@@ -36,6 +36,9 @@
               "update": {
                 "type": "none"
               }
+            },
+            "goToDetails": {
+              "type": "action"
             }
           }
         }
@@ -46,28 +49,10 @@
     "type": "object",
     "comment": "DetailsView",
     "properties": {
-      "title": {
-        "type": "string",
-        "label": "Title"
-      },
-      "descriptionShort": {
-        "type": "string",
-        "label": "DescriptShort"
-      },
-      "description": {
-        "type": "string",
-        "label": "Description"
-      },
-      "action": {
-        "type": "action"
-      },
-      "quantity": {
+      "linename": {
         "type": "string",
         "update": {
-          "type": "action",
-          "action": [
-            "action"
-          ]
+          "type": "none"
         }
       }
     }
