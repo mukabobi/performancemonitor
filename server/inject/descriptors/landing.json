@@ -19,7 +19,7 @@
             "control": "property.innerText"
           },
           "goToDetails": {
-            "type": "action",
+            "type": "string",
             "selector": "td > div > a",
             "control": "action.link"
           }
