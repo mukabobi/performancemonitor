@@ -8,7 +8,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div",
+      "selectorAll": "div > table > tbody > tr",
       "items": {
         "type": "object",
         "properties": {
