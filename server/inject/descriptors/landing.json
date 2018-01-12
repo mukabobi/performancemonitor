@@ -5,7 +5,24 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists"
+    },
+    "linesList": {
+      "type": "array",
+      "selectorAll": ".container.body-content",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding"
+      ],
+      "screens": [
+        "landing"
+      ]
+    }
+  ]
 }
