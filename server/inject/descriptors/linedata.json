@@ -8,7 +8,7 @@
     },
     "linename": {
       "type": "string",
-      "selector": "div",
+      "selector": ".highlightedShiftText",
       "control": "property.innerHTML"
     }
   },
