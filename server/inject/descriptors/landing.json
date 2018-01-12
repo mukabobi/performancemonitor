@@ -20,7 +20,7 @@
           },
           "goToDetails": {
             "type": "string",
-            "selector": "td > div > a",
+            "selector": "td > div > a[href]",
             "control": "text"
           }
         }
