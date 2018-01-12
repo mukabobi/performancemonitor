@@ -13,7 +13,7 @@
     },
     "goToLanding": {
       "type": "action",
-      "control": "action.link",
+      "control": "text",
       "selector": "a.navbar-brand"
     }
   },
