@@ -15,6 +15,11 @@
       "type": "string",
       "control": "text",
       "selector": "a.navbar-brand"
+    },
+    "product1": {
+      "type": "string",
+      "selector": "#partNumberValue1",
+      "control": "property.innerText"
     }
   },
   "connect": [
