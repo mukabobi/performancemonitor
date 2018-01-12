@@ -62,7 +62,10 @@
         "type": "action"
       },
       "product1": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "targetPerHour": {
         "type": "string"
