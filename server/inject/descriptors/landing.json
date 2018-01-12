@@ -8,7 +8,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > a[href=\"/Home/PerformanceSMTView?line=\"]",
+      "selectorAll": "div > a",
       "items": {
         "type": "object",
         "properties": {
