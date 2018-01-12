@@ -20,7 +20,7 @@
           },
           "goToDetails": {
             "type": "string",
-            "selector": "a[href^=\"/Home/PerformanceSMTView?line=\"]",
+            "selector": "td > div > a[href^=\"/Home/PerformanceSMTView?line=\"]",
             "control": "text"
           }
         }
