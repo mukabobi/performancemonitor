@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isLanding": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "exists"
+    }
+  },
+  "connect": []
+}
