@@ -20,7 +20,7 @@
           "goToDetails": {
             "type": "string",
             "selector": "td > div > a",
-            "control": "property.innerHTML"
+            "control": "action.link"
           }
         }
       }
