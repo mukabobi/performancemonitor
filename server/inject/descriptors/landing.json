@@ -9,7 +9,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > table > tbody > tr:(odd)",
+      "selectorAll": "div > table > tbody > tr:nth-child(odd)",
       "items": {
         "type": "object",
         "properties": {
