@@ -36,6 +36,9 @@
               "update": {
                 "type": "none"
               }
+            },
+            "goToDetails": {
+              "type": "action"
             }
           }
         }
