@@ -19,7 +19,7 @@
           },
           "goToDetails": {
             "type": "string",
-            "selector": "td > div > a[href^=]",
+            "selector": "td > div > a",
             "control": "text"
           }
         }
