@@ -68,10 +68,16 @@
         }
       },
       "targetPerHour": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "hourActualValue": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "planPerShift": {
         "type": "string"
