@@ -25,6 +25,17 @@
         "update": {
           "type": "none"
         }
+      },
+      "linesList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "linename": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
