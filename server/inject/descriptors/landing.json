@@ -3,7 +3,7 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "table",
+      "selector": "table.linesList",
       "control": "exists",
       "selectIndex": 2
     },
