@@ -12,7 +12,7 @@
       "control": "property.innerHTML"
     },
     "goToLanding": {
-      "type": "action",
+      "type": "string",
       "control": "text",
       "selector": "a.navbar-brand"
     }
