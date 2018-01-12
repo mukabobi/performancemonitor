@@ -27,6 +27,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "landing"
+    },
+    {
+      "id": "linedata",
+      "name": "linedata",
+      "sourceScreenId": "app.detailsview.detailsviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "linedata"
     }
   ],
   "sourceAppId": "_blank",
