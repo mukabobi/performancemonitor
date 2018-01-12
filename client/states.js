@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.linedata', {
+        views: {
+            app: {
+                controller: 'app_linedata',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.linedata');
+                }
+            }
+        }
     });
 });
