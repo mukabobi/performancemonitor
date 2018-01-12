@@ -47,7 +47,10 @@
     "comment": "DetailsView",
     "properties": {
       "linename": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
