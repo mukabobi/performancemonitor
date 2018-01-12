@@ -9,7 +9,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > table > tbody > tr >td:nth-child(1)",
+      "selectorAll": "div > table > tbody > tr >td[contains(., 'SMT')]",
       "items": {
         "type": "object",
         "properties": {
