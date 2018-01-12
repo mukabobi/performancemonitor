@@ -9,7 +9,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > table > tbody > tr:has(td:contains(\"SMT\"))",
+      "selectorAll": "div > table > tbody > tr",
       "items": {
         "type": "object",
         "properties": {
