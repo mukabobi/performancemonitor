@@ -4,8 +4,7 @@
     "isLanding": {
       "type": "identifier",
       "selector": "body",
-      "control": "exists",
-      "selectContains": "SMT"
+      "control": "exists"
     },
     "linesList": {
       "type": "array",
