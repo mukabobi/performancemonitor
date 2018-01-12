@@ -34,7 +34,7 @@
                 </div>
                 <div class="col" data-comp-id="column.4">
                     <div class=" text-center" data-comp-id="text.6"
-                        ng-class="{ 'tpositive': awesome, 'calm': giant }">Fact per hour</div>
+                        ng-class="{ 'tpositive': data.quantity == 1, 'calm': giant }">Fact per hour</div>
                     <div class="text-center dark" data-comp-id="text.7"
                         ng-bind="data.hourActualValue"
                         style="font-size: 64px; font-weight: 300; line-height: 70px;">Some text</div>
