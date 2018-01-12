@@ -14,7 +14,7 @@
         "type": "object",
         "properties": {
           "linename": {
-            "type": "action",
+            "type": "string",
             "selector": "a",
             "control": "action.link",
             "selectContains": "SMT"
