@@ -3,8 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "body",
-      "control": "exists"
+      "selector": "a",
+      "control": "property.innerText",
+      "selectContains": "SMT"
     },
     "linesList": {
       "type": "array",
