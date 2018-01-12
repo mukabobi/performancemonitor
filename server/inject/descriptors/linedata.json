@@ -20,6 +20,11 @@
       "type": "string",
       "selector": "#partNumberValue1",
       "control": "property.innerText"
+    },
+    "targetPerHour": {
+      "type": "string",
+      "selector": "#partNumberValue1",
+      "control": "property.innerText"
     }
   },
   "connect": [
