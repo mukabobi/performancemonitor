@@ -30,6 +30,11 @@
       "type": "string",
       "selector": "#performanceView-actualValue",
       "control": "property.innerText"
+    },
+    "planPerShift": {
+      "type": "string",
+      "selector": "span#performanceView-shiftTargetValue",
+      "control": "property.innerText"
     }
   },
   "connect": [
