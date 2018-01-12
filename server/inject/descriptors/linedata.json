@@ -23,7 +23,7 @@
     },
     "targetPerHour": {
       "type": "string",
-      "selector": "#partNumberValue1",
+      "selector": "#performanceView-targetValue",
       "control": "property.innerText"
     }
   },
