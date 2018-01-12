@@ -33,7 +33,7 @@
     },
     "planPerShift": {
       "type": "string",
-      "selector": ".highlightedShiftText",
+      "selector": "span#performanceView-shiftTargetValue",
       "control": "property.innerText"
     },
     "actualPerShift": {
