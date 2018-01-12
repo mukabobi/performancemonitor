@@ -9,7 +9,7 @@
     },
     "linesList": {
       "type": "array",
-      "selectorAll": "div > table > tbody > tr:has(td:contains(\"Leather\"))",
+      "selectorAll": "div > table > tbody > tr:has(td:contains(\"SMT\"))",
       "items": {
         "type": "object",
         "properties": {
