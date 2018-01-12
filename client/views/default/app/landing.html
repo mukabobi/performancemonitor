@@ -9,10 +9,8 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list data-comp-id="ionic-list.1">
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.linesList">
             <div class="item item-icon-right" data-comp-id="item.1"
-                ng-click="app.action('landing', 'linesList[item].goToDetails', this)"
-                ng-repeat="item in data.linesList"
                 style="border-top: 1px solid rgba(255, 255, 255, 0);">
                 <div class=" positive" data-comp-id="text.1" ng-bind="item.linename">Price &amp; Availability</div>
                 <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
