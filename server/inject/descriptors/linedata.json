@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": ".mainContainer",
       "control": "exists"
+    },
+    "linename": {
+      "type": "string",
+      "selector": "div",
+      "control": "property.innerHTML"
     }
   },
   "connect": [
