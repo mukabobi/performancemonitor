@@ -35,6 +35,10 @@
       "screens": [
         "landing"
       ]
+    },
+    {
+      "match": [],
+      "action": "linesList.goToDetails"
     }
   ]
 }
