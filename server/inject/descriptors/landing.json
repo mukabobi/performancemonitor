@@ -17,6 +17,11 @@
             "selector": "td > div > a",
             "control": "property.innerText",
             "selectContains": "SMT"
+          },
+          "goToDetails": {
+            "type": "string",
+            "selector": "a[href^=\"/Home/PerformanceSMTView?line=\"]",
+            "control": "property.innerHTML"
           }
         }
       }
