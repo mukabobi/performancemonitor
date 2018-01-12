@@ -3,8 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "body",
-      "control": "exists"
+      "selector": "table",
+      "control": "exists",
+      "selectIndex": 2
     },
     "linesList": {
       "type": "array",
