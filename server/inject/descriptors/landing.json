@@ -16,7 +16,8 @@
           "linename": {
             "type": "string",
             "selector": "div > a",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectContains": "SMT"
           },
           "goToDetails": {
             "type": "action",
